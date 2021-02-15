@@ -285,7 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f161615358cc4407ebe0b63b193f1eea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBonus: 20
+  healthBonus: 100
 --- !u!135 &49392396
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -525,7 +525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f161615358cc4407ebe0b63b193f1eea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBonus: 20
+  healthBonus: 100
 --- !u!135 &183004804
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1714,7 +1714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f161615358cc4407ebe0b63b193f1eea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBonus: 20
+  healthBonus: 100
 --- !u!1 &997386868
 GameObject:
   m_ObjectHideFlags: 0
