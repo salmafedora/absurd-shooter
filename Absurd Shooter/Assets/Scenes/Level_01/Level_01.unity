@@ -733,7 +733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 100
-  currentHealth: 0
+  currentHealth: 100
   healthSlider: {fileID: 1841811241}
   damageImage: {fileID: 1650739609}
   deathClip: {fileID: 8300000, guid: d36a393bca4582043982db9089e1694f, type: 3}
@@ -1560,6 +1560,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   warningText: {fileID: 2104916838}
   playerHealth: {fileID: 332616544}
+  restartDelay: 2
 --- !u!95 &1055162741
 Animator:
   serializedVersion: 3

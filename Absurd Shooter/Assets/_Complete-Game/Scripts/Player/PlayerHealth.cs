@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
 using UnityEngine.SceneManagement;
 
 namespace CompleteProject
@@ -19,7 +18,7 @@ namespace CompleteProject
         Animator anim;
         AudioSource playerAudio;
         PlayerMovement playerMovement;
-       // PlayerShooting playerShooting;
+        PlayerShooting playerShooting;
         bool isDead;
         bool damaged;
         
@@ -31,7 +30,7 @@ namespace CompleteProject
             anim = GetComponent <Animator> ();
             playerAudio = GetComponent <AudioSource> ();
             playerMovement = GetComponent <PlayerMovement> ();
-            //playerShooting = GetComponentInChildren <PlayerShooting> ();
+            playerShooting = GetComponentInChildren<PlayerShooting>();
 
             // initial health
             currentHealth = startingHealth;
@@ -87,7 +86,7 @@ namespace CompleteProject
             isDead = true;
 
             // Turn off any remaining shooting effects.
-            //playerShooting.DisableEffects ();
+            playerShooting.DisableEffects();
 
             // trigger animasi die
             anim.SetTrigger ("Die");
@@ -98,7 +97,7 @@ namespace CompleteProject
 
             // mematikan script pergerakan
             playerMovement.enabled = false;
-           // playerShooting.enabled = false;
+            playerShooting.enabled = false;
         }
 
 

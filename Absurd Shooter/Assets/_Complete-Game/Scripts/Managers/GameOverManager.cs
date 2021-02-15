@@ -11,6 +11,9 @@ namespace CompleteProject
         public Text warningText;
         public PlayerHealth playerHealth;
         public float restartDelay = 2f;
+        PlayerMovement playerMovement;
+        PlayerShooting playerShooting;
+
 
         Animator anim;
 
@@ -23,7 +26,10 @@ namespace CompleteProject
         {
             if (playerHealth.currentHealth <= 0)
             {
+                
+
                 anim.SetTrigger("GameOver");
+                
                 Restart();
             }
         }

@@ -1,33 +1,44 @@
 ﻿<Properties StartupConfiguration="{014AB275-B70E-5772-3043-BD3C840B3A74}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Complete-Game/Scripts/Audio/MixLevels.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Complete-Game/Scripts/Command/InputHandler.cs">
     <Files>
-      <File FileName="Assets/_Complete-Game/Scripts/Managers/EnemyManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/_Complete-Game/Scripts/Managers/PauseManager.cs" />
+      <File FileName="Assets/_Complete-Game/Scripts/Managers/EnemyManager.cs" Line="16" Column="1" />
+      <File FileName="Assets/_Complete-Game/Scripts/Managers/PauseManager.cs" Line="1" Column="1" />
       <File FileName="Assets/_Complete-Game/Scripts/Managers/ScoreManager.cs" />
       <File FileName="Assets/_Complete-Game/Scripts/Factory/EnemyFactory.cs" />
       <File FileName="Assets/_Complete-Game/Scripts/Factory/IFactory.cs" />
-      <File FileName="Assets/_Complete-Game/Scripts/Managers/GameOverManager.cs" />
-      <File FileName="Assets/_Complete-Game/Scripts/Player/PlayerDetector.cs" Line="18" Column="10" />
-      <File FileName="Assets/_Complete-Game/Scripts/Player/PlayerHealth.cs" />
-      <File FileName="Assets/_Complete-Game/Scripts/Player/PlayerShooting.cs" />
-      <File FileName="Assets/_Complete-Game/Scripts/Player/PlayerMovement.cs" />
+      <File FileName="Assets/_Complete-Game/Scripts/Managers/GameOverManager.cs" Line="29" Column="31" />
+      <File FileName="Assets/_Complete-Game/Scripts/Player/PlayerDetector.cs" />
+      <File FileName="Assets/_Complete-Game/Scripts/Player/PlayerHealth.cs" Line="20" Column="9" />
+      <File FileName="Assets/_Complete-Game/Scripts/Player/PlayerShooting.cs" Line="58" Column="13" />
+      <File FileName="Assets/_Complete-Game/Scripts/Player/PlayerMovement.cs" Line="33" Column="15" />
       <File FileName="Assets/_Complete-Game/Scripts/Audio/MixLevels.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Complete-Game/Scripts/Command/ShootCommand.cs" Line="20" Column="28" />
+      <File FileName="Assets/_Complete-Game/Scripts/Command/InputHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Complete-Game/Scripts/Command/MoveCommand.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/PlayerHealth.cs" Line="22" Column="1" />
+      <File FileName="Assets/_Complete-Game/Scripts/Enemy/EnemyMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Complete-Game/Scripts/Command/Command.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Absurd Shooter" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
               <Node name="_Complete-Game" expanded="True">
                 <Node name="Scripts" expanded="True">
                   <Node name="Audio" expanded="True" />
                   <Node name="Camera" expanded="True" />
-                  <Node name="Command" expanded="True" />
+                  <Node name="Command" expanded="True">
+                    <Node name="InputHandler.cs" selected="True" />
+                  </Node>
                   <Node name="Enemy" expanded="True" />
                   <Node name="Factory" expanded="True" />
                   <Node name="Managers" expanded="True" />
                   <Node name="Player" expanded="True" />
                 </Node>
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="Player" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -37,7 +48,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ac44390c-16ec-4812-93e0-de242c08510d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="93ec8cb9-8bed-4ed1-9c3b-2b5b25dbe2ff" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

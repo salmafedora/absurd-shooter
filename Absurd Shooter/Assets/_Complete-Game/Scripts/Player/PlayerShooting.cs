@@ -105,10 +105,5 @@ namespace CompleteProject
                 gunLine.SetPosition(1, shootRay.origin + shootRay.direction * range);
             }
         }
-
-        public static implicit operator PlayerShooting(global::PlayerShooting v)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
