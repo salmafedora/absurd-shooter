@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace CompleteProject
 {
@@ -9,6 +10,7 @@ namespace CompleteProject
     {
         public Text warningText;
         public PlayerHealth playerHealth;
+        public float restartDelay = 2f;
 
         Animator anim;
 
@@ -22,7 +24,19 @@ namespace CompleteProject
             if (playerHealth.currentHealth <= 0)
             {
                 anim.SetTrigger("GameOver");
+                Restart();
             }
+        }
+
+        void Restart()
+        {
+            StartCoroutine("Restart2");
+        }
+
+        IEnumerator Restart2()
+        {
+            yield return new WaitForSeconds(restartDelay);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
         public void ShowWarning(float enemyDistance)
