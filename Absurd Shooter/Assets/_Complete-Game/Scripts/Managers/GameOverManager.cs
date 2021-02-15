@@ -11,8 +11,6 @@ namespace CompleteProject
         public Text warningText;
         public PlayerHealth playerHealth;
         public float restartDelay = 2f;
-        PlayerMovement playerMovement;
-        PlayerShooting playerShooting;
 
 
         Animator anim;
@@ -29,21 +27,12 @@ namespace CompleteProject
                 
 
                 anim.SetTrigger("GameOver");
-                
-                Restart();
+
+
             }
         }
 
-        void Restart()
-        {
-            StartCoroutine("Restart2");
-        }
-
-        IEnumerator Restart2()
-        {
-            yield return new WaitForSeconds(restartDelay);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
+        
 
         public void ShowWarning(float enemyDistance)
         {

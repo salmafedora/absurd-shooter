@@ -1,32 +1,45 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# =============== #
+# Unity generated #
+# =============== #
+Absurd Shooter/[Tt]emp/
+Absurd Shooter/[Oo]bj/
+#Absurd Shooter[Bb]uild
+#Absurd Shooter/[Bb]uilds/
+Absurd Shooter/[Ll]ibrary/
+Absurd Shooter/sysinfo.txt
+Absurd Shooter/.stackdump
+#Absurd Shooter/Assets/AssetStoreTools
+#Absurd Shooter/.apk
+Absurd Shooter/.unitypackage
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+Absurd Shooter/[Ee]xported[Oo]bj/
+Absurd Shooter/.vs/
+Absurd Shooter/.userprefs
+Absurd Shooter/.csproj
+Absurd Shooter/.pidb
+Absurd Shooter/.pidb.meta
+Absurd Shooter/.suo
+Absurd Shooter/.sln*
+Absurd Shooter/.user
+Absurd Shooter/.unityproj
+Absurd Shooter/.booproj
+Absurd Shooter/.consulo/
+Absurd Shooter/.tmp
+Absurd Shooter/.svd
+ 
+# ============ #
+# OS generated #
+# ============ #
+Absurd Shooter/.DS_Store
+Absurd Shooter/._*
+Absurd Shooter/.Spotlight-V100
+Absurd Shooter/.Trashes
+Absurd Shooter/Icon?
+Absurd Shooter/ehthumbs.db
+Absurd Shooter/[Tt]humbs.db
+Absurd Shooter/[Dd]esktop.ini
+Absurd Shooter/Corridor/Library/ShaderCache/
+Absurd Shooter/Corridor/Library/metadata/

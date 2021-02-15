@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 namespace CompleteProject
 {
@@ -21,7 +22,7 @@ namespace CompleteProject
         PlayerShooting playerShooting;
         bool isDead;
         bool damaged;
-        
+        public float restartDelay = 2f;
 
 
         void Awake ()
@@ -76,6 +77,7 @@ namespace CompleteProject
             {
                 // MATI
                 Death ();
+                Restart();
             }
         }
 
@@ -98,6 +100,8 @@ namespace CompleteProject
             // mematikan script pergerakan
             playerMovement.enabled = false;
             playerShooting.enabled = false;
+
+            
         }
 
 
@@ -105,6 +109,17 @@ namespace CompleteProject
         {
             // restard scene
             SceneManager.LoadScene (0);
+        }
+
+        void Restart()
+        {
+            StartCoroutine("Restart2");
+        }
+
+        IEnumerator Restart2()
+        {
+            yield return new WaitForSeconds(restartDelay);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

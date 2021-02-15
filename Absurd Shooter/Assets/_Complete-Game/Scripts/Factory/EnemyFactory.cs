@@ -2,16 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-public class EnemyFactory : MonoBehaviour, IFactory
+namespace CompleteProject
 {
-
-    [SerializeField]
-    public GameObject[] enemyPrefab;
-
-    public GameObject FactoryMethod(int tag)
+    public class EnemyFactory : MonoBehaviour, IFactory
     {
-        GameObject enemy = Instantiate(enemyPrefab[tag]);
-        return enemy;
+
+        [SerializeField]
+        public GameObject[] enemyPrefab;
+
+        public GameObject FactoryMethod(int tag)
+        {
+            GameObject enemy = Instantiate(enemyPrefab[tag]);
+            return enemy;
+        }
     }
 }

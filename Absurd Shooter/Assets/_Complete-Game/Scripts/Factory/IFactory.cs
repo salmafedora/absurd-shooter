@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IFactory
+namespace CompleteProject
 {
-    GameObject FactoryMethod(int tag);
+    public interface IFactory
+    {
+        GameObject FactoryMethod(int tag);
+    }
 }
