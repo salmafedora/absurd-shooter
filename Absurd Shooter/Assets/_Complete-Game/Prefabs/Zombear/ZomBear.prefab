@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5743717668863077837}
   - component: {fileID: 2692114330785271787}
   - component: {fileID: 910766182494891224}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HitParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4767,7 +4767,7 @@ GameObject:
   - component: {fileID: 5728988749189286624}
   - component: {fileID: 2387903549281027467}
   - component: {fileID: 1776763270794946872}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: DeathParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9504,7 +9504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5258571396370754105}
   - component: {fileID: 4243038583325485652}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Zombear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9586,7 +9586,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1699759037801050042}
   - component: {fileID: 2324010131263610646}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9664,7 +9664,7 @@ GameObject:
   - component: {fileID: 7570187304001404293}
   - component: {fileID: 1404735048522117985}
   - component: {fileID: 2200080216598861773}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: ZomBear
   m_TagString: Enemy
   m_Icon: {fileID: 0}

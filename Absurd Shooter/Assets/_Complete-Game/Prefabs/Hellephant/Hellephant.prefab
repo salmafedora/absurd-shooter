@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 4578065852933361114}
   - component: {fileID: 780724808100030794}
   - component: {fileID: 7864781091943734872}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Hellephant
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 942334256751322684}
   - component: {fileID: 72002727442214380}
   - component: {fileID: 8308422432606962621}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: DeathParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5014,7 +5014,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5993368817323167551}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Trunk1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5046,7 +5046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6210724947335884095}
   - component: {fileID: 2648251435544714465}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hellephant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5127,7 +5127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7030425222103017415}
   - component: {fileID: 2554255041623354520}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5197,7 +5197,7 @@ GameObject:
   - component: {fileID: 4213285876161241383}
   - component: {fileID: 5657137879859076429}
   - component: {fileID: 3505872298534656173}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HitParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
