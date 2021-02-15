@@ -308,7 +308,7 @@ GameObject:
   - component: {fileID: 153290416}
   - component: {fileID: 153290415}
   m_Layer: 5
-  m_Name: ScreenFade
+  m_Name: ScreenFader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
